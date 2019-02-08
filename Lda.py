@@ -36,7 +36,7 @@ def getLda(filename,stopwords,numTopics):
     # 构建词袋模型
     dictionary = corpora.Dictionary(sentences)
     corpus = [dictionary.doc2bow(sentence) for sentence in sentences]
-    # lda模型，num_topics是主题的个数，这里定义了5个
+    # lda模型，num_topics是主题的个数
     lda = gensim.models.ldamodel.LdaModel(corpus=corpus, id2word=dictionary, num_topics=numTopics)
     return lda,wordNum
 
