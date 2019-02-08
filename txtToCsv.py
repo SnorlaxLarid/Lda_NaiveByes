@@ -5,7 +5,7 @@ import csv
 
 txtDir = "C://Users//larid//Desktop//Study//NLP//语料//八大类语料，各1500篇//教育//"
 
-csvName = "education_text_500" + ".csv"
+csvName = "education_train_500" + ".csv"
 #文件的起始与终结名，具体结合语料
 start = 285461
 end = 285959
