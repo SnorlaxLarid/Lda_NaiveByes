@@ -19,16 +19,16 @@ Result：
   
          分类为财经：TP = 991; FN = 9;        分类为体育：TP = 996; FN = 4;
                     FP = 4;   TN = 996;                 FP = 9;   TN = 991;
-                    accuracy = 99.35%;                  accuracy = 99.35%;
+                    precision = 99.60%;                 precision = 99.10%;
                     recall = 99.10%;                    recall = 99.60%;
-                    F1 = 99.22%;                        F1 = 99.47%;
+                    F1 = 99.35%;                        F1 = 99.35%;
                     
   测试集中：
   
          分类为财经：TP = 487; FN = 11;        分类为体育：TP = 493; FN = 5;
                     FP = 5;   TN = 493;                  FP = 11;   TN = 487;
-                    accuracy = 98.39%;                   accuracy = 98.39%;
+                    precision = 98.98%;                  precision = 97.82%;
                     recall = 97.79%;                     recall = 99.00%;
-                    F1 = 98.09%;                         F1 = 98.69%;             
+                    F1 = 98.38%;                         F1 = 98.41%;             
 
 
